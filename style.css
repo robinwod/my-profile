@@ -1,0 +1,66 @@
+body {
+	background-color: #F7F9FC;
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: Courier;
+}
+h1 {
+	color: #fd0000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 45px;
+
+}
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+
+
+}
+a {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+
+}
+a:hover{
+	color: black;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: auto;
+	text-align: auto;
+
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px 
+	rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	
+}
+.img-circle {
+	border-radius: 50%
+}
+.btn-blue {
+	background-color: red;
+	color: white;
+	padding: 6px 20px;
+	border-radius: 4px;
+	margin: auto;
+
+}
+.list-inline {
+	padding: 6px 295px;
+}
+
